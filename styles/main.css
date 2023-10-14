@@ -266,17 +266,16 @@ footer {
     justify-content: center;
 }
 
-#temples h4 {
-    color: navy;
-    font-size: smaller;
-}
-
-
 #temples img {
     width: 250px;
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+}
+
+#temples h4 {
+    color: navy;
+    font-size: smaller;
 }
 
 /* Media Queries */
