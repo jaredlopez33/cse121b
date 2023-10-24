@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Consultation</title>
+    <link rel="stylesheet" href="Project/finalproject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="w01-task.html">W1 Task</a></li>
+          <li><a href="w03-task.html">W3 Task</a></li>
+          <li><a href="w04-task.html">W4 Task</a></li>
+          <li><a href="w05-task.html" >W5 Task</a></li>
+          <li><a href="project.html" >Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Weather Consultation</h1>
+        <input type="text" id="cityInput" placeholder="Enter a city">
+        <button id="submitButton">Consult</button>
+        
+        <div class="weather-info">
+            <img id="cityImage" >
+            <div id="weatherInfo"></div>
+        </div>
+    </main>
+    <script src="Project/finalproject.js"></script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
